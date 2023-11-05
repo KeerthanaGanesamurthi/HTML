@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML FORMS</title>
+</head>
+<body style="background-color: aqua;">
+   <center><h1>FILL THE FORM TO REGISTER FOR THE COURSE</h1></center>
+   <br>
+   <center>
+   <form>
+    <label for="FirstName">First Name:</label>
+    <br>
+    <input type="text" id="FirstName" name="FirstName" required>
+    <br>
+    <label for="LastName">Last Name:</label>
+    <br>
+    <input type="text" id="LastName" name="LastName" required>
+    <br>
+    <label for="DOB">DOB:</label>
+    <br>
+    <input type="date" id="DOB" name="DOB" required>
+    <br>
+    <label>Gender:</label>
+    <br>
+    <input type="radio" id="Male" name="Gender" value="Male"> 
+    <label for="Male">Male</label>
+    <input type="radio" id="Female" name="Gender" value="Female">
+    <label for="Female">Female</label>
+    <br>
+    <label for="Emailid">Email Id:</label>
+    <br>
+    <input type="email" id="Emailid" name="Emailid">
+    <br>
+    <label>Language:</label>
+    <br>
+    <input type="checkbox" id="C Programming" name="Language" value="C Programming">
+    <label for="C Programming">C Programming</label>
+    <input type="checkbox" id="Python Programming" name="Language" value="Python Programming">
+    <label for="Python Programming">Python Programming</label>
+    <input type="checkbox" id="Java Programming" name="Language" value="Java Programming">
+    <label for="Java Programming">Java Programming</label>
+    <br>
+    <label for="Department">Department</label>
+    <br><br>
+    <select id="Department" name="Department" size="5" multiple>
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="CSBS">CSBS</option>
+        <option value="AIML">AIML</option>
+        <option value="IT">IT</option>
+        <option value="AIDS">AIDS</option>
+    </select>
+    <br>
+    <label for="file">Select a File:</label>
+    <br>
+    <input type="file" id="file" name="file">
+    <br>
+    <input type="submit" value="Upload File">
+    <br><br>
+    <button>
+        <input type="reset" value="Reset"><br>
+    </button>
+    <button>
+        <a href="file:///C:/Users/keert/OneDrive/Desktop/Response%20page.html">Submit</a>
+    </button>
+   </form>
+   </center>   
+</body>
+</html>
